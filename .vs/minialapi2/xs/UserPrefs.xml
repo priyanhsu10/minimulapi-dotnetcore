@@ -1,0 +1,34 @@
+﻿<Properties StartupConfiguration="{B9E98A95-57B0-41EA-BFA0-76BE9D1DED0C}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.minialapi2 PreferredExecutionTarget="/Applications/Brave Browser.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="minialapi2/RequestHandler/TodoRequest.cs">
+    <Files>
+      <File FileName="minialapi2/Program.cs" Line="9" Column="32" />
+      <File FileName="minialapi2/Requests/EmptyClass.cs" Line="5" Column="37" />
+      <File FileName="minialapi2/Requests/TestRequest.cs" Line="4" Column="41" />
+      <File FileName="minialapi2/RequestHandler/RequestHandler.cs" Line="14" Column="2" />
+      <File FileName="minialapi2/ApiMediatrExtention.cs" Line="29" Column="43" />
+      <File FileName="minialapi2/RequestHandler/TodoRequest.cs" Line="13" Column="1" />
+      <File FileName="minialapi2/minialapi2.csproj" Line="5" Column="22" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="minialapi2" expanded="True">
+            <Node name="minialapi2" expanded="True">
+              <Node name="Requests" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>
