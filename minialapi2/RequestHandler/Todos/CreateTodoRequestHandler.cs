@@ -22,7 +22,7 @@ namespace minialapi2.Todos.Requests
 
                 Decrption = request.Decrption,
                 Minutes = request.Minutes,
-                title = request.title
+                title = request.Title
 
             };
             var result = await repository.Create(todo);

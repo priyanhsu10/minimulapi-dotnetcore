@@ -1,5 +1,6 @@
 ﻿using System;
 using MediatR;
+using Microsoft.AspNetCore.Mvc;
 using minialapi2.Requests;
 using minialapi2.Todos.Requests;
 
@@ -20,7 +21,7 @@ namespace minialapi2
         public static WebApplication DoPost<TRequest>(this WebApplication app, string route)
            where TRequest : IAppRequest
         {
-            app.MapPost(route, async (IMediator mediator, [AsParameters] TRequest request) =>
+            app.MapPost(route, async (IMediator mediator, [AsParameters] [FromBody] TRequest request) =>
             {
                 return await mediator.Send(request);
             });
@@ -30,7 +31,7 @@ namespace minialapi2
         public static WebApplication DoPut<TRequest>(this WebApplication app, string route)
           where TRequest : IAppRequest
         {
-            app.MapPut(route, async (IMediator mediator, [AsParameters] TRequest request) =>
+            app.MapPut(route, async (IMediator mediator, [AsParameters][FromBody] TRequest request) =>
             {
                 return await mediator.Send(request);
             });

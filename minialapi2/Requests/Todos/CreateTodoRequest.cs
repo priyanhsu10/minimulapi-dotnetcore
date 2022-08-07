@@ -5,7 +5,7 @@ namespace minialapi2.Todos.Requests
 {
     public class CreateTodoRequest:IAppRequest
     {
-        public string title { get; set; }
+        public string Title { get; set; }
         public int Minutes { get; set; }
         public string Decrption { get; set; }
     }
