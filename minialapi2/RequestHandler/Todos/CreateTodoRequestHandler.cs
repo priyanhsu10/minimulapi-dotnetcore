@@ -8,9 +8,9 @@ namespace minialapi2.Todos.Requests
 {
     public class CreateTodoRequestHandler:IRequestHandler<CreateTodoRequest,IResult>
     {
-        private readonly IRepository<Todo, Guid> repository;
+        private readonly IRepository<Todo, int> repository;
 
-        public CreateTodoRequestHandler(IRepository<Todo,Guid> repository)
+        public CreateTodoRequestHandler(IRepository<Todo,int> repository)
         {
             this.repository = repository;
         }
@@ -21,7 +21,6 @@ namespace minialapi2.Todos.Requests
             {
 
                 Decrption = request.Decrption,
-                Id = new Guid(),
                 Minutes = request.Minutes,
                 title = request.title
 

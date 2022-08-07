@@ -20,7 +20,7 @@ namespace minialapi2
         public static WebApplication DoPost<TRequest>(this WebApplication app, string route)
            where TRequest : IAppRequest
         {
-            app.MapGet(route, async (IMediator mediator, [AsParameters] TRequest request) =>
+            app.MapPost(route, async (IMediator mediator, [AsParameters] TRequest request) =>
             {
                 return await mediator.Send(request);
             });
@@ -30,7 +30,7 @@ namespace minialapi2
         public static WebApplication DoPut<TRequest>(this WebApplication app, string route)
           where TRequest : IAppRequest
         {
-            app.MapGet(route, async (IMediator mediator, [AsParameters] TRequest request) =>
+            app.MapPut(route, async (IMediator mediator, [AsParameters] TRequest request) =>
             {
                 return await mediator.Send(request);
             });
@@ -46,12 +46,12 @@ namespace minialapi2
             return app;
         }
 
-        public static WebApplication RegisterTodos(this WebApplication app)
+        public static WebApplication RegisterTodoRoutes(this WebApplication app)
         {
-            DoGet<TodoRequest>(app,"/todo");
+            DoGet<GetAllTodoRequest>(app,"/todo");
             DoPost<CreateTodoRequest>(app, "/todo");
-            DoPut<TodoRequest>(app, "/todo/:id");
-            DoDelete<TodoRequest>(app, "/todo/:id");
+            //DoPut<TodoRequest>(app, "/todo/:id");
+            //DoDelete<TodoRequest>(app, "/todo/:id");
             return app;
         }
     }

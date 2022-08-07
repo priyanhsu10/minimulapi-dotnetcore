@@ -5,9 +5,16 @@
 /Users/priyanshuparate/projects/dotnet/minialapi2/minialapi2/bin/Debug/net7.0/minialapi2.runtimeconfig.json
 /Users/priyanshuparate/projects/dotnet/minialapi2/minialapi2/bin/Debug/net7.0/minialapi2.dll
 /Users/priyanshuparate/projects/dotnet/minialapi2/minialapi2/bin/Debug/net7.0/minialapi2.pdb
+/Users/priyanshuparate/projects/dotnet/minialapi2/minialapi2/bin/Debug/net7.0/Humanizer.dll
 /Users/priyanshuparate/projects/dotnet/minialapi2/minialapi2/bin/Debug/net7.0/MediatR.dll
 /Users/priyanshuparate/projects/dotnet/minialapi2/minialapi2/bin/Debug/net7.0/MediatR.Contracts.dll
 /Users/priyanshuparate/projects/dotnet/minialapi2/minialapi2/bin/Debug/net7.0/MediatR.Extensions.Microsoft.DependencyInjection.dll
+/Users/priyanshuparate/projects/dotnet/minialapi2/minialapi2/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.dll
+/Users/priyanshuparate/projects/dotnet/minialapi2/minialapi2/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/priyanshuparate/projects/dotnet/minialapi2/minialapi2/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Design.dll
+/Users/priyanshuparate/projects/dotnet/minialapi2/minialapi2/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/priyanshuparate/projects/dotnet/minialapi2/minialapi2/bin/Debug/net7.0/Npgsql.dll
+/Users/priyanshuparate/projects/dotnet/minialapi2/minialapi2/bin/Debug/net7.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll
 /Users/priyanshuparate/projects/dotnet/minialapi2/minialapi2/obj/Debug/net7.0/minialapi2.csproj.AssemblyReference.cache
 /Users/priyanshuparate/projects/dotnet/minialapi2/minialapi2/obj/Debug/net7.0/minialapi2.GeneratedMSBuildEditorConfig.editorconfig
 /Users/priyanshuparate/projects/dotnet/minialapi2/minialapi2/obj/Debug/net7.0/minialapi2.AssemblyInfoInputs.cache

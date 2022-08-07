@@ -7,9 +7,9 @@ namespace minialapi2.Todos.Requests
 {
     public class GetAllTodoRequestHandler:IRequestHandler<GetAllTodoRequest,IResult>
     {
-        private readonly IRepository<Todo, Guid> repository;
+        private readonly IRepository<Todo, int> repository;
 
-        public GetAllTodoRequestHandler(IRepository<Todo,Guid> repository)
+        public GetAllTodoRequestHandler(IRepository<Todo,int> repository)
         {
             this.repository = repository;
         }
